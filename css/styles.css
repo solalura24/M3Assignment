@@ -15,12 +15,14 @@ body{
 .navbar-brand h1 {
   font-family: 'Abril Fatface';
   color: #2F4F4F;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #F0E68C;
-  margin:0px auto 0px -30px;
+  margin:-5px auto 0px -80px;
   line-height: .75;
   padding-bottom: 30px;
+  padding-top: -5px
+
 
 }
 #nav-list {
@@ -43,21 +45,29 @@ body{
   clear: both;
   margin-top: -60px
 }
+button.navbar-toggle.collapsed{
+  height:60px;
+  margin-top:-60px;
+}
 
 h2{
 	text-align: center;
 	font-size: 1.8em;
+  padding-bottom:25px;
 }
 h3{
 	text-align: center;
 	font-size: 1.5em;
+  padding-top:-30px;
+  margin-top:-10px;
 }
 #menu{
-	margin: 5px 21px 0 21px;
+	margin: 5px;
 	background-color: #F0E68C;
+  padding:15px;
 }
 #item1{
-	padding-top: 15px;
+	padding-top: -50px;
 }
 #top{
 	text-align: center;
@@ -65,7 +75,11 @@ h3{
 .items{
 	color:solid black;
 }
-
+.container p {
+  padding-top:25px;
+  margin-top:-2px;
+  margin: -2px 25px auto 25px;
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 #collapsable-nav#nav-list.items{
@@ -76,15 +90,13 @@ h3{
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  .navbar-brand h1 {
-  	margin-left:-5px;
-  }
+
 #collapsible-nav{
   visibility: hidden;
  }
  .navbar-brand h1 { /* Restaurant name */
     padding-top: -5px;
-    font-size: 6vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw; /* 1vw = 1% of viewport width */
   }
  
 }
@@ -107,8 +119,9 @@ h3{
     margin-left: 25px;
   }
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 10w; /* 1vw = 1% of viewport width */
+    padding-top: 25px;
+    font-size: 10w;
+
   }
  
  #menu{
@@ -122,18 +135,15 @@ h3{
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
+ 
+.navbar-brand h1 { /* Restaurant name */
     padding-top: 25px;
-    padding-left:0px;
-    font-size: 10vw;
-    padding-bottom:35px;
+    padding-left:50px;
+    font-size: 12vw;
+    padding-bottom:25px;
   }
-  #header-nav {
-    padding-bottom: 0px;
-  }
- 
- .item{
- 	margin:auto;
- }
- 
+
+#header-nav{
+  padding: 0px auto 0px 0px;
+}
 }
