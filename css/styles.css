@@ -8,25 +8,26 @@ body{
   border-radius: 0;
   border:1px solid black;
   padding-left:5px;
+  padding-bottom: 2px;
+  padding-top:15px;
+  height:100px;
    }
-  padding-top: 25px;
  .navbar-brand {
   padding-bottom:0px;
 }
 .navbar-brand h1 {
   font-family: 'Abril Fatface';
   color: #2F4F4F;
-  font-size: 1.8em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #F0E68C;
   margin:-5px auto 0px -40px;
   line-height: .75;
-  padding-bottom: 30px;
-  padding-top: -5px
+  padding-bottom:15px;
+  
 
 }
 #nav-list {
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #32CD32;
   padding-left: -5px;
 }
@@ -116,7 +117,14 @@ h3{
     font-size: 6VW;
     padding-bottom: 25PX;
   }
+.navbar-header button.navbar-toggle{
+  display: none;
+  visibility:hidden;
+}
+#collapsable-nav#nav-list.items{
+  visibility: hidden;
  }
+}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -149,17 +157,18 @@ h3{
   /* Header */
  
 .navbar-brand h1 { /* Restaurant name */
-    padding-top: 25px;
+    padding-top: 10px;
     padding-left:5px;
     font-size: 12vw;
-    padding-bottom:25px;
+    
   }
 
 .navbar-header button.navbar-toggle {
-  height:95%;
+  height:60;
+  margin-top:-75px;
   }
 
 #header-nav {
   padding-right:5px;
-}
+ }
 }
