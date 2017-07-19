@@ -170,18 +170,19 @@ button.navbar-toggle.collapsed {
 #header-nav.navbar-brand h1 { /* Restaurant name */
     padding-top: 18px;
     padding-left:0px;
-    font-size: 8vw;
-    margin-left:-20px;
+    font-size: 5vw;
+    margin-left:-10px;
     
   }
 
 .navbar-header button.navbar-toggle {
   height:60px;
   margin-top:-75px;
-  margin-right: -2px;
+  margin-right: -1px;
   }
 
 #header-nav {
   padding-right:5px;
+  padding-left:0px;
  }
 }
