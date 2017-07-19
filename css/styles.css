@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+}
 body{
 	font-size: 16px;
 	color:#000000;
@@ -152,7 +156,7 @@ h3{
 button.navbar-toggle.collapsed {
   margin-top:-75px;
 }
- }
+
  #menu{
  	margin:30px 25px 30px 25px;
  }
@@ -164,13 +168,13 @@ button.navbar-toggle.collapsed {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
- nav#header-nav.navbar.navbar-default{
+ nav #header-nav.navbar.navbar-default{
   padding-left:0px;
  }
 #header-nav.navbar-brand h1 { /* Restaurant name */
     padding-top: 18px;
     padding-left:0px;
-    font-size: 5vw;
+    font-size: 2vw;
     margin-left:-10px;
     
   }
@@ -185,4 +189,5 @@ button.navbar-toggle.collapsed {
   padding-right:5px;
   padding-left:0px;
  }
+
 }
