@@ -167,11 +167,10 @@ button.navbar-toggle.collapsed {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-.navbar-header button.navbar-toggle {
-  height:60px;
-  margin-top:-75px;
-  margin-right: -1px;
-  }
+button.navbar-toggle.collapsed {
+  margin-top:-80px;
+  margin-right:10px;
+}
 
 #header-nav {
   padding-right:5px;
@@ -191,10 +190,5 @@ h2{
   #nav-list{
     padding-bottom: -10px;
   }
-
-button.navbar-toggle.collapsed {
-  margin-top:-80px;
-  margin-right:10px;
-  height: 50px;
-  width:40px;
 }
+
