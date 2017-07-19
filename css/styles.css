@@ -124,6 +124,10 @@ h3{
   visibility: hidden!important;
   display: none !important;
  }
+ button.navbar-toggle.collapsed.visible-xs{
+  margin-top:-75px;
+  display: hidden;
+}
 
 }
 
@@ -145,7 +149,7 @@ h3{
     padding-bottom: -10px;
   }
 
-button.navbar-toggle.collapsed{
+button.navbar-toggle.collapsed {
   margin-top:-75px;
 }
  }
@@ -164,7 +168,7 @@ button.navbar-toggle.collapsed{
   padding-left:0px;
  }
 #header-nav.navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
+    padding-top: 18px;
     padding-left:0px;
     font-size: 8vw;
     margin-left:-20px;
